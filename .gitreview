@@ -1,0 +1,8 @@
+
+        [gerrit]
+        host=gerrit.onap.org
+        port=29418
+        project=clamp/ui
+        defaultbranch=master
+        asd=asdf
+        
