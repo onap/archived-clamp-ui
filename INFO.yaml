@@ -1,0 +1,63 @@
+---
+project: 'clamp_ui'
+project_creation_date: '2019-12-06'
+project_category: ''
+lifecycle_state: 'Incubation'
+project_lead: &onap_clamp_ui_ptl
+    name: 'Gervais-Martial Ngueko'
+    email: 'gervais-martial.ngueko@intl.att.com'
+    id: 'osgn422w'
+    company: 'ATT'
+    timezone: 'Europe/Brussels'
+primary_contact: *onap_clamp_ui_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.onap.org/projects/CLAMP'
+    key: 'CLAMP'
+mailing_list:
+    type: 'groups.io'
+    url: 'technical-discuss@lists.onap.org'
+    tag: '[]'
+realtime_discussion:
+    type: 'irc'
+    server: 'freenode.net'
+    channel: '#onap'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda: 'https://wiki.onap.org/display/'
+      url: ''
+      server: 'freenode.net'
+      channel: '#onap'
+      repeats: ''
+      time: ''
+repositories:
+    - clamp/ui
+committers:
+    - <<: *onap_clamp_ui_ptl
+    - name: 'Christophe Closset'
+      email: 'christophe.closset@intl.att.com'
+      company: 'ATT'
+      id: 'ChrisC'
+      timezone: 'Europe/Brussels'
+    - name: 'Eddy Hautot'
+      email: 'eddy.hautot@intl.att.com'
+      company: 'ATT'
+      id: 'ehautot'
+      timezone: 'Europe/Brussels'
+    - name: 'Sebastien Determe'
+      email: 'sebastien.determe@intl.att.com'
+      company: 'ATT'
+      id: 'sebdet'
+      timezone: 'Europe/Brussels'
+    - name: 'Xue Gao'
+      email: 'xue.gao@intl.att.com'
+      company: 'ATT'
+      id: 'xuegao'
+      timezone: 'Europe/Brussels'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'Approved by Xinhui Li'
+    changes:
+        - type: ''
+          name: ''
+          link: ''
